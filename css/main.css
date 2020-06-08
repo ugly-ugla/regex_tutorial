@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700&display=swap');
-
+a {
+    text-decoration: none;
+    color: #43aa8b;
+}
 .container {
     margin: auto;
     max-width: 80vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background: #f2e8cf;
     font-family: 'Exo 2', sans-serif;
     color: #254441;
@@ -34,6 +38,14 @@
     border-radius: 10px;
     border-color: transparent;
 }
+.search:focus {
+    outline: none;
+}
 .search::placeholder {
     color: rgba(37, 68, 65, 0.25);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 2vw;
 }
