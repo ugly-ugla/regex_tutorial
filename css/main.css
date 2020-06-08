@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700&display=swap');
+
+.container {
+    margin: auto;
+    max-width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f2e8cf;
+    font-family: 'Exo 2', sans-serif;
+    color: #254441;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin: 2vh 5vw;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search {
+    padding: 0 1vw;
+    width: 68vw;
+    max-width: 540px;
+    height: 5vh;
+    min-height: 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.search::placeholder {
+    color: rgba(37, 68, 65, 0.25);
+}
